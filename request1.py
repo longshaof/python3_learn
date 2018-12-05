@@ -8,6 +8,6 @@ def getHTMLText(url):
        except:
             return " 产生异常"
 
-if _name_=="_main_"
+if _name_=="_main_":
       url="http://www.baidu.com"
       print(getHTMLTxet(url))

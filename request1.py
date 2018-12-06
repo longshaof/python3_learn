@@ -3,7 +3,7 @@ def getHTMLText(url):
        try:
             r=requests.get(url,timeout=30)
             r.raise_for_status()
-            r.encodeing=r.apparent_encoding
+            r.encoding=r.apparent_encoding
             return r.txt
        except:
             return " 产生异常"
